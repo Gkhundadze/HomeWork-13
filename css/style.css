@@ -1,0 +1,21 @@
+.section-1{
+    width: 100%;
+}
+.container{
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    padding-right: 110px;
+}
+.nav-a{
+    font-family: ArchyEDTthin;
+}
