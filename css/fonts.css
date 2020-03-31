@@ -29,4 +29,11 @@
   .icon-logo:before {
     content: "\e900";
   }
-  
+  @font-face {
+    font-family: 'ArchyEDTthin';
+    src:  url(../fonts/ArchyEDT-Thin.eot);
+    src:  url(../fonts/ArchyEDT-Thin.svg);
+    src:  url(../fonts/ArchyEDT-Thin.ttf);
+    src:  url(../fonts/ArchyEDT-Thin.woff);
+    src:  url(../fonts/ArchyEDT-Thin.woff2);
+  }
