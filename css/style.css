@@ -64,3 +64,41 @@
 .white-box-p p{
     font-size: 24px;
 }
+.section-2-title{
+    margin-bottom: 70px;
+}
+.section-2-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-2-block-box{
+    max-width: 483px;
+    width: 100%;
+}
+.section-2-block-box-image{
+    margin-bottom: 23px;
+}
+.section-2-block-box-image img{
+    width: 100%;
+}
+.section-2-block-box-title{
+    margin-bottom: 33px;
+}
+.section-2-block-box-paragraph{
+    margin-bottom: 76px;
+    max-width: 446px;
+    width: 100%;
+}
+.section-2-block-box-more{
+    margin-right: 18px;
+    margin-bottom: 34px;
+}
+.section-2-block-box-more a{
+    float: right;
+}
+.section-2-block-box-more::after{
+    content: " ";
+    display: block;
+    clear: right;
+}
