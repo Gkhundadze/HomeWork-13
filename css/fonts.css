@@ -6,3 +6,11 @@
   src:  url(../fonts/ArchyEDT-Thin.woff);
   src:  url(../fonts/ArchyEDT-Thin.woff2);
 }
+@font-face {
+  font-family: 'ninomtavr';
+  src:  url(../fonts/BPGNinoMtavruli.eot);
+  src:  url(../fonts/BPGNinoMtavruli.svg);
+  src:  url(../fonts/BPGNinoMtavruli.ttf);
+  src:  url(../fonts/BPGNinoMtavruli.woff);
+  src:  url(../fonts/BPGNinoMtavruli.woff2);
+}
