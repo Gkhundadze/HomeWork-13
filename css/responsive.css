@@ -1,9 +1,13 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @media(max-width:900px){
     .nav-li{
         margin-right: 80px;
     }
     .header-img{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .white-box{
         max-height: 200px;
@@ -11,7 +15,9 @@
 }
 @media(max-width: 790px){
     .section-2-block{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 @media(max-width:775px){
@@ -69,7 +75,10 @@
         display: none;
     }
     .footer-div{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         text-align: center;
     }
 }

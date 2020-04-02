@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body{
     font-family: ninomtavr;
 }
@@ -11,15 +13,25 @@ body{
     margin: 0 auto;
 }
 .header{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 200px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav-li{
@@ -35,9 +47,15 @@ body{
     background-size: cover;
     width: 100%;
     height: 613px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 .white-box{
     max-width: 674px;
@@ -57,6 +75,8 @@ body{
     margin-bottom: 48px;
 }
 .white-box-read-more-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 24px;
 }
@@ -74,9 +94,14 @@ body{
     margin-bottom: 70px;
 }
 .section-2-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .section-2-block-box{
     max-width: 483px;
@@ -117,9 +142,15 @@ body{
     color: #F2F2F2
 }
 .footer-div{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
 }
 .social{
