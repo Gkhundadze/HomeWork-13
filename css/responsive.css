@@ -1,6 +1,8 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-@media(max-width:900px){
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@media(max-width:965px){
     .nav-li{
         margin-right: 80px;
     }
@@ -13,7 +15,12 @@
         max-height: 200px;
     }
 }
-@media(max-width: 790px){
+@media(max-width:885px){
+    .nav-li{
+        margin-right: 65px;
+    }
+}
+@media(max-width: 785px){
     .section-2-block{
         -webkit-box-pack: center;
             -ms-flex-pack: center;
@@ -25,6 +32,16 @@
         margin-right: 50px;
     }
 }
+@media(max-width:725px){
+    .nav-li{
+        margin-right: 30px;
+    }
+}
+/* @media(max-width:679px){
+    .nav-li{
+        margin-right: 66px;
+    }
+} */
 @media(max-width:660px){
     .header{
         height: 130px;
@@ -41,6 +58,57 @@
     }
     .white-box{
         max-height: 150px;
+    }
+    .section-2-block-box-more a:hover{
+        font-size: 26px;
+    }
+    .address{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+@media(max-width:605px){
+    .contact{
+        margin-right: 5px;
+    }
+}
+@media(max-width:414px){
+    .white-box{
+        height: 100px;
+        max-width: 246px;
+        width: 100%;
+    }
+    .white-box-h h4 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .white-box-p p {
+        font-size: 9px;
+    }
+    .white-box-read-more-div-p-read-more{
+        font-size: 8px;
+    }
+    .section-2-title {
+        margin-bottom: 24px;
+    }
+    .section-2-title h3{
+        text-align: center;
+    }
+    .section-2-block-box-more{
+        font-size: 13px;
+    }
+    .section-2-block-box-more a:hover{
+        font-size: 15px;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-div{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
     }
 }
 @media(max-width:320px){
@@ -70,6 +138,9 @@
     }
     .section-2-block-box-more{
         font-size: 11px;
+    }
+    .section-2-block-box-more a:hover{
+        font-size: 13px;
     }
     .footer-logo{
         display: none;
