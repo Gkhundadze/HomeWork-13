@@ -78,6 +78,9 @@
         max-width: 246px;
         width: 100%;
     }
+    section{
+        padding: 5px;
+    }
     .white-box-h h4 {
         font-size: 17px;
         text-align: center;
@@ -116,7 +119,7 @@
         background-image: url(../images/heade-320.jpg);
     }
     .white-box{
-        height: 100px;
+        height: 80px;
         max-width: 246px;
         width: 100%;
     }
