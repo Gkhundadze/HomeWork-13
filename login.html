@@ -21,18 +21,18 @@
     <title>HomeWork-13</title>
 </head>
 <body>
-    <section class="section-1">
+    <section class="section-1 register">
         <div class="container">
             <header class="header">
                 <div class="logo">
-                    <a href="#" class="logo-a">
+                    <a href="index.html" class="logo-a">
                         <img src="images/logo.svg" alt="logo">
                     </a>
                 </div>
                 <nav class="nav">
                     <ul class="nav-ul">
                         <li class="nav-li">
-                            <a href="#" class="nav-a">
+                            <a href="index.html" class="nav-a">
                                 პროექტის შესახებ
                             </a>
                         </li>
@@ -47,7 +47,7 @@
                             </a>
                         </li>
                         <li class="nav-li">
-                            <a href="#" class="nav-a">
+                            <a href="login.html" class="nav-a">
                                 შესვლა
                             </a>
                         </li>
@@ -58,10 +58,54 @@
                     </div>
                 </nav>
             </header>
-            <div class="header-img-login"></div>
+            <div class="header-img-register">
+                <form>
+                    <div class="regname">
+                        <label for="fname">თქვენი სახელი</label>
+                        <input type="text" name="firstname" id="fname" maxlength="12" required placeholder="ჩაწერეთ თქვენი სახელი">
+                    </div>    
+                    <div class="regsurname">   
+                        <label for="sname">თქვენი გვარი</label>
+                        <input type="text" name="surname" id="sname" maxlength="35" required placeholder="ჩაწერეთ თქვენი გვარი">
+                    </div>   
+                    <div class="regemail">
+                        <label for="regemail">ელ :  ფოსტა (Email)</label>
+                        <input type="email" name="email" id="regemail" required placeholder="ელ:  ფოსტა">
+                    </div>
+                    <div class="regmobile">   
+                        <label for="mnumber">თქვენი მობილურის ნომერი</label>
+                        <input type="number" name="mobilenumber" id="mnumber" required placeholder="+995 ** ** **">
+                    </div>   
+                    <div class="regdate">
+                        <label for="bdate">დაბადების თარიღი</label>
+                        <input type="date" name="birthdate" id="bdate" required>
+                    </div>
+                    
+                    <div class="regpass">
+                        <label for="pass">მომხმარებლის პაროლი</label>
+                        <input type="password" name="password" id="pass" minlength="8" maxlength="24" required placeholder="მინ 8 სიმბოლო">
+                    </div>
+                    <div class="regpass2">
+                        <label for="pass2">გაიმეორეთ პაროლი</label>
+                        <input type="password" name="password2" id="pass2" minlength="8" maxlength="24" required placeholder="გაიმეორეთ პაროლი">
+                    </div>
+                    <div class="gender">
+                        <label for="gender">სქესი</label>
+                        <select id="gender" name="gender" size="1">
+                            <option value="მდედრობითი">მდედრობითი</option>
+                            <option value="მამრობითი">მამრობითი</option>
+                            <option value="ცხოველი">ცხოველი</option>
+                        </select>
+                    </div>    
+                    <div class="regbuttons">
+                        <button class="regbtn" type="submit" value="submit">რეგისტრაცია</button>
+                        <button class="regbtn" type="reset" value="reset">თავიდან</button>
+                    </div>    
+                </form>   
+            </div>
         </div>  
     </section>
-<footer class="footer">
+<footer class="footer register">
     <div class="footer-div container">
         <div class="footer-logo">
             <img src="images/footer-logo.svg" alt="footer logo">
@@ -77,7 +121,7 @@
         </div>
         <div class="social">
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/"target="_blank" ><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" ><i class="fab fa-instagram"></i></a>
         </div>
     </div>
 </footer>

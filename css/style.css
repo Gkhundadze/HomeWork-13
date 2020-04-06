@@ -1,7 +1,5 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 body{
     font-family: ninomtavr;
 }
@@ -15,6 +13,7 @@ body{
     margin: 0 auto;
 }
 .header{
+    color: #f3e9d0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -25,6 +24,9 @@ body{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            background-image: -o-linear-gradient(right, #bdbdbd, #adafb2, #9ba1a7, #88949b, #74888d, #657b82, #566f77, #48636c, #405362, #3c4356, #3a3345, #362332);
+            background-image: -webkit-gradient(linear, right top, left top, from(#bdbdbd), color-stop(#adafb2), color-stop(#9ba1a7), color-stop(#88949b), color-stop(#74888d), color-stop(#657b82), color-stop(#566f77), color-stop(#48636c), color-stop(#405362), color-stop(#3c4356), color-stop(#3a3345), to(#362332));
+            background-image: linear-gradient(to left, #bdbdbd, #adafb2, #9ba1a7, #88949b, #74888d, #657b82, #566f77, #48636c, #405362, #3c4356, #3a3345, #362332);
 }
 .nav{
     display: -webkit-box;
@@ -111,6 +113,7 @@ body{
 .section-2-block-box{
     max-width: 483px;
     width: 100%;
+    border: 2px solid #89547b;
 }
 .section-2-block-box-image{
     margin-bottom: 23px;
@@ -178,11 +181,105 @@ body{
     letter-spacing: 1px;
     line-height: 17px;
 }
-.header-img-login{
+.header-img-register{
     background-image: url(../images/map.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 613px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+form{
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+}
+label{
+    color: #f3e9d0;
+    font-weight: bold;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+}
+.regbuttons{
+    text-align: center;
+}
+.gender{
+    text-align: end;
+}
+input:focus{
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    color: #82b0ae;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+input::-moz-placeholder{
+    color: #82b0ae;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+input:-ms-input-placeholder{
+    color: #82b0ae;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+input::-ms-input-placeholder{
+    color: #82b0ae;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+input::placeholder{
+    color: #82b0ae;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+.regbtn{
+    height: 35px;
+}
+.regname,
+.regsurname,
+.regemail,
+.regmobile,
+.regdate,
+.gender,
+.regpass,
+.regpass2,
+.regbuttons{
+    margin-top: 10px;
+}
+.register{
+    margin: 0;
+}
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=date],
+input[type=password]{
+    opacity: 95%;
+    background-image: -webkit-gradient(linear, left top, right top, from(#2f3d51), color-stop(#616f76), color-stop(#416f73), color-stop(#3f735e), to(#768459));
+    background-image: -o-linear-gradient(left, #2f3d51, #616f76, #416f73, #3f735e, #768459);
+    background-image: linear-gradient(to right, #2f3d51, #616f76, #416f73, #3f735e, #768459);
+}
+input, select, textarea{
+    color: #fff;
+    font-size: 18px;
 }
